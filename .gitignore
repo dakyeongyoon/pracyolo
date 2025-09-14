@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python 가상환경 & 캐시
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# YOLO 학습 산출물
+runs/
+wandb/
+logs/
+
+# 대용량 데이터/가중치
+dataset/
+data/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# 기타 불필요한 파일
+*.zip
+*.mp4
+*.avi
+*.DS_Store
+
+
